@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+...
+</head>
+<body id="app">
+...
+  <ul>
+    <li v-for="employee in employees">
+      <a v-bind:href="employee.url">{{ employee.name }}</a>
+    </li>
+  </ul>
+...
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script>
+var app = new Vue({
+  el: '#app',
+  data: {
+    employees: [
+    ]
+  }
+});
+
+app.employees = [ 
+  { name: "John Smith", url: "http://company/jsmith.html" },
+  { name: "Mary Jones", url: "http://company/mjones.html" }
+];
+
+</script>
+</body>
+</html>
