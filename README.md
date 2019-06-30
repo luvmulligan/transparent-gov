@@ -1,6 +1,8 @@
 # transparent-gov
 An informative web with Congress member statistics.
 
+https://transparentgov.netlify.com/
+
 You can read about different aspects of the current Congress of the United States with general member information such as 
 FULL NAME, WEB SITE, STATE, SENIORITY and PERTENTAGE OF VOTES. You can filter out the data table by State and Party. 
 
